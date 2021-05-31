@@ -1,0 +1,63 @@
+* {
+   // background-color: #9999d9;
+    font-family: 'Roboto', sans-serif;
+    //color: black;
+
+    
+}
+.current_city__name {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+.container {
+
+ //   border: red 2px solid;
+    width: 500px;
+    height: 500px;
+    margin: 10rem auto;
+    display: flex;
+    justify-content: space-around;
+}
+.main {
+
+    width: 500px;
+    height: 500px;
+  //  margin: 2rem auto;
+    text-align: center;
+
+}
+
+.current_weather {
+    padding-top: 4rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.current-city {
+  //  border: #00ffde 2px solid;
+}
+
+.additional {
+  //  border: #00ffde 2px solid;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+
+
+}
+
+html[data-theme="night"] {
+    color: #ffffff;
+    background:linear-gradient(#09284a, #023c7c) no-repeat;
+
+}
+html[data-theme="day"] {
+    color: #000000;
+    background:linear-gradient(#0b8ac8, #018bae) no-repeat;
+}
+
+
+.temp_max, .temp_min, .humidity {
+    margin-top: 1rem;
+
+}
