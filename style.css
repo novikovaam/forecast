@@ -61,3 +61,7 @@ html[data-theme="day"] {
     margin-top: 1rem;
 
 }
+
+.humidity {
+    margin: auto 0;
+}
